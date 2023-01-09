@@ -1,0 +1,42 @@
+#soma
+2+1
+#subtração
+2-1
+#multiplicação
+2=2
+#divisão,divisões sempre retornam um float
+3/2
+#voce também pode especificaro tipo do número
+3.0/2
+#quadrado
+3** 2
+#raiz quadrada
+4 ** 0.5
+#módulo, resto da divisão
+10 % 3
+#a ordem das operações em Pyton é igal na matemática normal
+2 + 10 * 10 + 3
+#voce pode usar parênteses para especificar a ordem
+(2+10) * ( 10+3)
+//atribuições de variáveis
+// vamos criar um objeto chamado '' a'' e atribuir o número 5
+a = 5
+#somando objetos
+a+a
+#redefinição
+a+ 20
+#checar
+a
+#usar a para redefinir a
+a = a +a
+#checar
+a
+// regras : os nomes não podem começar com um número, não pode haver espaços no nome.Use _ em vez disso, não é possível usar nenhum desses símbolos : ' '', <>/?|()!@#$%^&*^-+
+//é considerada a melhor prática (PEP8) que os nomes são minúsculos.
+//usar nomes específicos para variáveis pode ser uma maneira muito útil de acompanhar diferentes variáveis em Python. Exemplo:
+
+distancia = 100
+tempo = 20
+ velocidade = distancia / tempo
+ #mostrar velocidade
+ velocidade 
