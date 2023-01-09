@@ -1,0 +1,42 @@
+//para criar uma string em Python , precisa usar aspas simples ou aspas duplas :
+#uma palavra
+'hello'
+#uma frase inteira
+'isso tambem e uma string'
+//imprimindo uma string : uma sequência  de caracteres emitirá automaticamente cadeias de caracteres, mas a maneira correta de exibir strings na sua saída é usando uma função de impressão.
+# podemos simplesmente declararuma string
+'hello world'
+//mas a maneira correta é utilizar o método print():
+print('hello world 1')
+print('hello world 2')
+print('use \n para inserir uma nova linha')
+print('nova linha')
+//pode-se usar uma função chamada len() para verificar o comprimento de uma string
+len('hello world')
+// indexação em strings : sabemos que as strings são uma sequência, o que significa que o Python pode usar índices para chamar partes da sequência.
+// em Python, usa-se colchetes após um objeto para chamar seu índice.Devemos notar que a indexação começa em 0 para Python. vamos criar um novo objeto chamado ''s'' e caminharmos através de alguns exemplos de indexação
+# define s como uma string
+s = 'hello world'
+#mostrar
+s
+# printa o objeto
+print(s)
+#mostra o primeiro elemento ( neste caso uma letra)
+s[0]
+s[1]
+s[2]
+#retorna todos elementos a aprtir do elemento de indice 1
+s[1:]
+#observe que não há mudanças no elemento s
+s
+#retorna tudo ate o elemento de indice 3
+s[:3]
+
+//Observe o corte acima. Aqui, estamos dizendo ao Python que pegue tudo de 0 a 3. Não inclui o terceiro índice. você notará muito isso em Python, onde as declarações são geralmente até o contexto, mas não o incluído
+#tudo
+s[:]
+//também pode-se usar indexação negativa para retroceder
+#última letra (umindice antes do 0, então ele começa da parte de trás)
+s[-1]
+#pega tudo, menos a última letra 
+s[:-1]
