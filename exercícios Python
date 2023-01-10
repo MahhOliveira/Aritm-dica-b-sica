@@ -3,3 +3,17 @@
 02- quanto é 21424 dividido por 89?
 21424/89
 240.7191011235955
+03- imprima a string ''hello Python'' de trás para frente usando indexação
+s= ''hello Python''
+s[::-1]
+'nohtyP olleH'
+
+04- usando a string ''hello Python'' imprima apenas ''Python''
+s = ''hello Python''
+s[6:]
+'Python'
+
+05- descubra o comprimento da string ''hello Python''. use a função len()
+s = ''hello Python''
+len(s)
+12
