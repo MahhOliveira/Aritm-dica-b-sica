@@ -40,3 +40,9 @@ s[:]
 s[-1]
 #pega tudo, menos a última letra 
 s[:-1]
+#pega tudo, de 1 em 1
+s[::1]
+#pega tudo, mas os espaçamentos
+s[::2]
+#pega tudo, mas com passos negativos, de tras para frente
+s[::-1]
